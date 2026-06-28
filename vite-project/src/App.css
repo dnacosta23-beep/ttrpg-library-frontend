@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #e8eee8;
+  color: #26332a;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #2f5d3a;
+}
+
+.game-form {
+  background-color: #f4f7f4;
+  border: 1px solid #b8c7b8;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #9aaa9a;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #3f7d4c;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #315f3b;
+}
+
+.game-list {
+  display: grid;
+  gap: 16px;
+}
+
+.game-card {
+  background-color: #f7faf7;
+  border-left: 6px solid #3f7d4c;
+  padding: 16px;
+  border-radius: 8px;
+}
